@@ -10,7 +10,6 @@ $(VENVSCRIPTS)/activate: requirements.txt
 	$(PYTHON) -m pip install --upgrade pip 
 	$(PIP) install -r requirements.txt
 	
-	echo -e "\e[1:32mMessage\e[0m"
 
 clean:
 	rmdir /s /q $(VENV)
